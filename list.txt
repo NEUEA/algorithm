@@ -1,8 +1,0 @@
-﻿{
-  "data": [
-    ["1","All About Evolutionary Optimization","算法","https://ecole.asia/news/2018/05/27/weekly141/?from=groupmessage&isappinstalled=0"],
-    ["2","数据驱动的发展式头脑风暴优化算法综述_程适","算法","progress/articles/数据驱动的发展式头脑风暴优化算法综述_程适.pdf"],
-    ["3","面向生产制造的大数据分析平台技术研究_田立瑞","大数据","progress/articles/面向生产制造的大数据分析平台技术研究_田立瑞.caj"],
-["4","Condition monitoring of a complex hydraulic system using multivariate statistics","大数据","progress/articles/Condition monitoring of a complex hydraulic system using multivariate statistics.pdf"]   
- ]
-}
