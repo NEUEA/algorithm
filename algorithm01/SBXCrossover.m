@@ -1,6 +1,6 @@
 function child = SBXCrossover(parent1,parent2,pro)
-%SBXCROSSOVER ´Ë´¦ÏÔÊ¾ÓĞ¹Ø´Ëº¯ÊıµÄÕªÒª
-%   ´Ë´¦ÏÔÊ¾ÏêÏ¸ËµÃ÷
+%SBXCROSSOVER æ­¤å¤„æ˜¾ç¤ºæœ‰å…³æ­¤å‡½æ•°çš„æ‘˜è¦
+%   æ­¤å¤„æ˜¾ç¤ºè¯¦ç»†è¯´æ˜
 pd=pro.pd;
 CrossProbability=1.0;
 upperBound=pro.lb;
@@ -56,9 +56,9 @@ if(rand(1)<=CrossProbability)
         end
         
         for j=1:2
-            if child(j,i) > upperBound(i)                     % ·ÖÁ¿´óÓÚÉÏÏŞ£¬ÉèÖÃÎªÉÏÏŞÖµ
+            if child(j,i) > upperBound(i)                     % åˆ†é‡å¤§äºä¸Šé™ï¼Œè®¾ç½®ä¸ºä¸Šé™å€¼
                 child(j,i) = upperBound(i);
-            elseif child(j,i) < lowerBound(i)                 % ·ÖÁ¿Ğ¡ÓÚÏÂÏŞ£¬ÉèÖÃÎªÏÂÏŞÖµ
+            elseif child(j,i) < lowerBound(i)                 % åˆ†é‡å°äºä¸‹é™ï¼Œè®¾ç½®ä¸ºä¸‹é™å€¼
                 child(j,i) = lowerBound(i);
             end
         end
