@@ -115,7 +115,7 @@ for t=1:time
         for i=1:pro.popsize
             wg_s(i,:)=cartesian_polar(wg(i,:),[]);
         end
-        pop_s=Partition_Association(next_pop,wg);%每个基因属于哪个权重
+        pop_s=Partition_Association(next_pop,wg);%姣忎釜鍩哄洜灞炰簬鍝釜鏉冮噸
         
         pop=zeros(pro.popsize,pro.pd+pro.od);
         %     ARC=ARC_selection(S,pro.popsize/2);
@@ -133,7 +133,7 @@ for t=1:time
         iter=iter+1;
         
     end
-    save(['测试结果\' pro.name '_' num2str(pro.od) '_' num2str(t) '.mat']);
+    save(['娴嬭瘯缁撴灉\' pro.name '_' num2str(pro.od) '_' num2str(t) '.mat']);
      plot(1:pro.od,pop(:,end-pro.od+1:end));
             xlabel('object-number');
             ylabel('object-value');
